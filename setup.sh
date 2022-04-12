@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Parameters
-DEFAULT_RESOLUTION="1366x768"
-DEFAULT_JAVA_VERSION="17.0.2-open"
-DEFAULT_INTELLIJ_VERSION="IdeaIC2022.1"
-
 echo "Starting the magic..."
 
 # Update and upgrade ubuntu programs
@@ -51,7 +46,7 @@ install-apt npm
 install-apt yarn
 install-apt awscli
 install-snap code
-install-apt sublime
+install-snap sublime-text
 install-snap spotify
 install-apt openvpn
 install-apt gimp

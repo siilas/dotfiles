@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Parameter
+DEFAULT_INTELLIJ_VERSION="IdeaIC2022.1"
+
 echo "Installing: Intellij IDEA Community..."
 
 sudo snap install intellij-idea-community
