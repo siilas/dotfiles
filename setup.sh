@@ -3,11 +3,9 @@
 # Parameter
 DEFAULT_RESOLUTION="1366x768"
 DEFAULT_JAVA_VERSION="17.0.2-open"
+DEFAULT_INTELLIJ_VERSION="IdeaIC2022.1"
 
 echo "Starting the magic..."
-
-# Copy dotfiles
-dotfiles/copy.sh
 
 # Update and upgrade ubuntu programs
 sudo apt update && sudo apt full-upgrade -y
@@ -67,6 +65,9 @@ for f in programs/*.sh; do bash "$f" -H; done
 
 # Run all scripts in configs folder
 for f in configs/*.sh; do bash "$f" -H; done
+
+# Copy dotfiles
+dotfiles/copy.sh
 
 # Get all upgrades and remove unnecessary packages
 sudo apt upgrade -y
