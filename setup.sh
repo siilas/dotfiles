@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Parameter
+# Parameters
 DEFAULT_RESOLUTION="1366x768"
 DEFAULT_JAVA_VERSION="17.0.2-open"
 DEFAULT_INTELLIJ_VERSION="IdeaIC2022.1"
