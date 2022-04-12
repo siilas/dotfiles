@@ -59,6 +59,7 @@ install-snap 'terraform --candidate'
 install-snap postman
 install-snap redis-desktop-manager
 install-apt virtualbox
+install-apt zsh
 
 # Run all scripts in programs folder
 for f in programs/*.sh; do bash "$f" -H; done

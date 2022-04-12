@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cp .gitconfig ${HOME}
-cp .vimrc ${HOME}
+cp .zshrc ${HOME}
