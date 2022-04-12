@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Parameter
+DEFAULT_RESOLUTION="1366x768"
+DEFAULT_JAVA_VERSION="17.0.2-open"
+
 echo "Starting the magic..."
 
 # Copy dotfiles
@@ -60,6 +64,9 @@ install-apt virtualbox
 
 # Run all scripts in programs folder
 for f in programs/*.sh; do bash "$f" -H; done
+
+# Run all scripts in configs folder
+for f in configs/*.sh; do bash "$f" -H; done
 
 # Get all upgrades and remove unnecessary packages
 sudo apt upgrade -y
