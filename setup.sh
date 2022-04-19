@@ -50,6 +50,7 @@ install-snap sublime-text
 install-snap spotify
 install-apt openvpn
 install-apt gimp
+install-snap shutter
 install-snap 'terraform --candidate'
 install-snap postman
 install-snap redis-desktop-manager
