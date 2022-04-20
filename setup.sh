@@ -34,6 +34,9 @@ install-apt htop
 install-apt vim
 install-apt slack
 install-apt git
+install-apt file
+install-apt procps
+install-apt build-essential
 install-apt maven
 install-apt gradle
 install-apt kubectl
