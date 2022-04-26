@@ -24,3 +24,5 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 
 sudo apt install -y docker-compose
+
+sudo usermod -aG docker ${USER}
